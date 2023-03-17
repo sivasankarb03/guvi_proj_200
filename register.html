@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Guvi SignUp</title>
+</head>
+<body class="container">
+    <div class="container">
+        <div class="container-fluid p-2 bg-success text-white text-center">
+            <h1>Guvi - Register</h1>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Guvi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="register.html">Signup</a>
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <br>
+    <div class="row">
+        <div class="col-md-4"></div>
+    <div class="col-md-4"><div class="alert alert-primary" role="alert">
+        <h3 class="alert-link">User Signup<h3>
+      </div></div>
+    </div>
+    <form  onsubmit="register()">
+        <br>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><label class="required">Name : </label></div>
+            <div class="col-md-4"><input type="text" required="required" name="name" placeholder="Eg: Sivasankar" class="form-control w-55"></div>
+            </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><label for="">Email : </label></div>
+            <div class="col-md-4"><input type="email" required="required" name="email_id" placeholder=" Eg: abc@gmail.com" class="form-control"></div>
+            </div>
+        <br><br>
+        <div class=row>
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><label for="">Password : </label></div>
+            <div class="col-md-4"><input type="password" required="required" name="pass" placeholder="Enter Password" class="form-control"></div>
+            </div>
+        <br><br>
+        <div class=row>
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><label for="">Confirm Password : </label></div>
+            <div class="col-md-4"><input type="password" required="required" name="cpass" placeholder="Re-enter Password" class="form-control" name="" id=""></div>
+            </div>
+        <br><br>
+        <div class=row>
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><label for="">Phone Number : </label></div>
+            <div class="col-md-4"><input type="text" required="required" name="pno" placeholder="Enter Mobile Number : " class="form-control"></div>
+            </div>
+        <br><br>
+        <div class=row>
+            <div class="col-md-3"></div>
+            <div class="col-md-2"><label for="">Date Of Birth : </label></div>
+            <div class="col-md-4"><input type="date"  required="required" name="dob" class="form-control"></div>
+            </div>
+        <br><br>
+        <button class="btn btn-outline-success" type="submit">Submit</button>
+        <br><br>
+    </form>
+    <br>
+        <label for="">Already a user ? &ensp;</label>
+        <a href="login.html" class="btn btn-primary">Login</a>
+    <br><br>
+</div>
+</body>
+</html>

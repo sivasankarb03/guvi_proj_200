@@ -1,0 +1,44 @@
+.abtn a
+{
+    text-decoration: none;
+    color: white;
+}
+.abtn a:hover{
+    color: white;
+}
+button
+{
+    cursor: pointer;
+}
+.head
+{
+    text-align: center;
+}
+.container
+{
+    text-align: center;
+    align-items: center;
+   
+}
+.required label {
+    font-weight: bold;
+}
+.required input:after { content:"*"; }
+
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+.asterisk_input{
+    content:" *"; 
+    color: #e32;
+    position: absolute; 
+    margin: 0px 0px 0px -20px; 
+    font-size: xx-large; 
+    padding: 0 5px 0 0; }
+#disp1
+{
+   
+    color: blue
+}
